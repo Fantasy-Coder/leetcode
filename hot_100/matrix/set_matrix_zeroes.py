@@ -20,6 +20,7 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
+        # 使用第一行和第一列来记录哪些行、列包含 0，避免使用额外空间
         m = len(matrix) #行数
         n = len(matrix[0]) #列数
         #第一行是否有0
